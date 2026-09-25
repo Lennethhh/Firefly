@@ -22,28 +22,40 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
+			name: "Bilibili",
+			icon: "fa7-brands:bilibili",
+			url: "https://www.bilibili.com/",
+			showName: false,
+		},
+		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/Lennethhh",
 			showName: false,
 		},
 		{
-			name: "Email",
-			icon: "fa7-solid:envelope",
+			name: "QQ群",
+			icon: "fa7-brands:qq",
 			url: "",
 			showName: false,
 		},
 		{
-			name: "RSS",
-			icon: "fa7-solid:rss",
-			url: "/rss/",
+			name: "Email",
+			icon: "fa7-solid:envelope",
+			url: "mailto:1915694404@qq.com",
 			showName: false,
 		},
-		{
-			name: "Atom",
-			icon: "fa7-solid:atom",
-			url: "/atom/",
-			showName: false,
-		},
+		// {
+		// 	name: "RSS",
+		// 	icon: "fa7-solid:rss",
+		// 	url: "/rss/",
+		// 	showName: false,
+		// },
+		// {
+		// 	name: "Atom",
+		// 	icon: "fa7-solid:atom",
+		// 	url: "/atom/",
+		// 	showName: false,
+		// },
 	],
 };
